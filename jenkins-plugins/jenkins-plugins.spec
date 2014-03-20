@@ -9,7 +9,7 @@ Source0:        jenkins-plugins-1.tar.gz
 The package is used to manage and update Jenkins plugins
 
 %prep
-rm -rf SRPM_BUILD_DIR/*
+rm -rf $RPM_BUILD_DIR/*
 tar -xvf $RPM_SOURCE_DIR/jenkins-plugins-1.tar.gz
 
 %install
