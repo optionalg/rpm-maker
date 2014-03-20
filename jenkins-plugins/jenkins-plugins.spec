@@ -4,6 +4,7 @@ Release:        1
 Summary:        The package is used to manage and update Jenkins plugins
 License:        GPLv3+
 Source0:        jenkins-plugins-1.tar.gz
+BuildArch:      noarch
       
 %description 
 The package is used to manage and update Jenkins plugins
