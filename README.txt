@@ -1,6 +1,6 @@
 To package a simple tarball into an RPM, the following steps will help you get started.
 
-1) Run vagrant up --provision
+1) Run vagrant up
 This will download the necessary dependencies to create the rpm
 
 2) Log into the VM and run "rpmdev-setuptree".  This will setup the basic folder structure needed to create the RPM under ~/rpmbuild (BUILD, BUILDROOT, SPECS, SOURCES, RPM, SRPM).
