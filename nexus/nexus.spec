@@ -5,9 +5,8 @@ Summary:        Sonatype Nexus Installer
 License:        Sonatype Nexus Open Source Version
 Source0:        nexus-2.7.2-03-bundle.tar.gz
 BuildArch:      noarch
+AutoReqProv:    no
 
-%define NEXUS_INSTALL_PATH %(/usr/local/nexus-2.7.2-03)
-      
 %description 
 The package is used to install Sonatype Nexus 2.7.2
 
